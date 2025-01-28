@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Inter", serif;
+}
+
+.container {
+    width: 85%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+:root {
+    --AbdullohiRangi: rgba(255, 104, 56, 1);
+    --JasurriRangi: rgba(54, 56, 83, 1);
+    --SherzoddiRangi: rgba(255, 122, 80, 1);
+    --hoverBoganda: rgba(244, 141, 109, 0.678);
+}
+
+.header-nav {}
+
+.header-wrapper {
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-button {
+    border-radius: 5px;
+    width: 120px;
+    padding: 14px 0;
+    border: none;
+    background-color: var(--AbdullohiRangi);
+    color: #fff;
+    transition: 300ms all ease;
+
+}
+
+.header-button:hover {
+    border-radius: 5px;
+    width: 120px;
+    padding: 14px 0;
+    border: none;
+    background-color: var(--hoverBoganda);
+    color: #fff;
+    transition: 300ms all ease;
+    box-shadow: 0px 22px 40px 0px rgba(255, 104, 56, 1);
+
+}
+
+.header-button:active {
+    border-radius: 5px;
+    width: 120px;
+    padding: 14px 0;
+    color: #fff;
+    transition: 300ms all ease;
+    border: 1px solid var(--AbdullohiRangi);
+    background-color: transparent;
+    color: var(--AbdullohiRangi);
+    box-shadow: none;
+}
+
+
+.header-nav-list {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.main-wrapper {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+    width: 530px;
+}
+
+.main-item {
+    font-size: 66px;
+    font-weight: 700;
+    line-height: 78.21px;
+    color: var(--JasurriRangi);
+
+    span{
+        color: var(--AbdullohiRangi);
+    }
+}
+
+.main-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--JasurriRangi);
+}
+
+.all01{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.all01 .left01{
+    margin-left: 200px;
+}
+
+.left01{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.left01 button{
+ width: 176px;
+height: 58px;
+top: 1515px;
+left: 855px;
+border-radius: 30px 30px 1px 30px;
+}
+
+.left01 button:hover{
+    background-color: orangered;
+}
+
+.left01 span{
+  color: orangered;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+   
+
+    
+}
+
+.section-wrapper {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.section span{
+    color: orangered;
+
+}
+
+.card01{
+   
+    width: 361px;
+height: 417px;
+/* margin-left: 156px; */
+/* margin-top: 20px; */
+display: flex;
+flex-direction: column;
+align-items: start;
+
+
+
+}
+.text02{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+}
+
+h2{
+    text-align: center;
+}
+
+.tap button{
+    background:orangered;
+    width: 79px;
+    height: 33px;
+    border-radius: 20px;
+    border-bottom-right-radius: 1px;
+    border:  none;
+
+}
+
+.top{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    text-underline-position: from-fent;
+    text-decoration-skip-ink: none;
+
+    
+} 
+
+.text03 {
+    width: 538px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 25px;
+}
+.all03{
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    margin-top: 200px;
+}
+.text03 span{
+    color: orangered;
+}
+.all04{
+    width: 1170px;
+    height: 312px;
+    background-color:orangered;
+    margin-left: 120px;
+    padding-top: 100px;
+    color: white;
+    font-size: 25px;
+    border-radius: 20px;
+    margin-top: 200px;
+}
+
+
+.send{
+    width: 840px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 70px;
+    margin-top: 40px;
+}
+
+.send input{
+    border: none;
+    outline: none;
+    margin-left: 30px;
+    width: 80%;
+}
+.send button{
+    padding: 15px 40px;
+    border-radius: 50px;
+    background-color: #FF7A50;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}
+
+
+
+
+
+
+
